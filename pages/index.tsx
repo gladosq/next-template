@@ -13,7 +13,7 @@ const MainPage = () => {
                 <Image
                     width={100}
                     height={100}
-                    src={vercelImg}git a
+                    src={vercelImg}
                     alt="image"
                 />
                 <Image
@@ -21,7 +21,7 @@ const MainPage = () => {
                     height={200}
                     src={nextImg}
                     alt="image"
-                    style={{objectFit: "cover"}}
+                    className={s.image}
                 />
                 <Link href="/">Main page</Link>
                 <Link href="/first-page">First page</Link>
